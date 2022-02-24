@@ -1,0 +1,11 @@
+type Mint {
+  name: String!
+  message: String!
+  seen: Boolean!
+  heart: Boolean
+  archived: Boolean
+}
+
+type Query {
+  allMints: [Mint!]!
+}
